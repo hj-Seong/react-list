@@ -69,6 +69,7 @@ class ListClass extends Component {
             <li
               key={s.id}
               onClick={() => {
+                // 이벤트안에서 인수를 전달할때에는 화살표함수로 감싸서 전달
                 this.deleteSeason(s.id);
               }}
             >
